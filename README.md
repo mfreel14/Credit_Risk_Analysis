@@ -15,7 +15,7 @@ With the credit card dataset from LendingClub, a peer-to-peer lending services c
 
 # Challenge Summary
 
-## (Project Name) - Results
+## Credit Risk Analysis - Results
 
 ## Credit Risk Resampling
 
@@ -61,9 +61,9 @@ With the credit card dataset from LendingClub, a peer-to-peer lending services c
 
 ## Credit Risk Ensemble
 
-### Balanced Random Forest Classifier
+### Balanced Randomd Forest Classifier
 
-![Screen Shot 2021-10-21 at 4 50 27 PM](https://user-images.githubusercontent.com/691355/138372015-69032ea5-eba6-41bf-b4ad-5dd8490149d1.png)
+![Screen Shot 2021-10-21 at 5 06 41 PM](https://user-images.githubusercontent.com/691355/138373174-c2fcc6cf-33ce-45c3-aa91-8ed412cb5a28.png)
 
 -  Accuracy Score: 79%
 -  Precision High Risk: 4%
@@ -84,4 +84,23 @@ With the credit card dataset from LendingClub, a peer-to-peer lending services c
 
 ## (Project Name) - Summary
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+The models demonstrated in the credit risk resampling were random oversampling, SMOTE oversampling, cluster centroid undersampling and SMOTEENN sampling.  These models and the models used in the credit risk ensemble (BRFC and EEAC) were used to identify which loans were the highest risk.  
+
+The three models with the highest recall rate for high risk were:
+1.  Easy Ensemble AdaBoost Classifier - 91%
+2.  SMOTEENN Sampling - 68%
+3.  Balanced Randomd Forest Classifier
+
+The three models with the highest recall rate for low risk were:
+1.  Easy Ensemble AdaBoost Classifier - 94%
+2.  Balanced Randomd Forest Classifier - 91%
+3.  Naive Random Oversampling - 68%
+
+The three models with the highest accuracy scores were:
+1.   Easy Ensemble AdaBoost Classifier - 93%
+2.   Balanced Randomd Forest Classifier - 79%
+3.   Naive Random Oversampling - 65%
+
+
+Taking these three statistics into account, I would recommend the Easy Ensemble Classifier model as the best predictor for high risk loans.
+
