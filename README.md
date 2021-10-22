@@ -82,7 +82,7 @@ With the credit card dataset from LendingClub, a peer-to-peer lending services c
 -  Recall Low Risk:  94%
 
 
-## (Project Name) - Summary
+## Credit Risk Analysis - Summary
 
 The models demonstrated in the credit risk resampling were random oversampling, SMOTE oversampling, cluster centroid undersampling and SMOTEENN sampling.  These models and the models used in the credit risk ensemble (BRFC and EEAC) were used to identify which loans were the highest risk.  
 
