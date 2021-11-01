@@ -61,7 +61,7 @@ With the credit card dataset from LendingClub, a peer-to-peer lending services c
 
 ## Credit Risk Ensemble
 
-### Balanced Randomd Forest Classifier
+### Balanced Random Forest Classifier
 
 ![Screen Shot 2021-10-21 at 5 06 41 PM](https://user-images.githubusercontent.com/691355/138373174-c2fcc6cf-33ce-45c3-aa91-8ed412cb5a28.png)
 
